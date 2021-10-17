@@ -1,0 +1,16 @@
+{
+  "1" : {
+    "title" : "this is the title 1",
+    "description" : "this the description of the news number 1",
+    "content" : "this the content of the news number 1",
+    "date" : "17-09-2021",
+    "picture" : "@/assets/backgrounds/img-principale.jpg"
+  },
+  "2" : {
+    "title" : "this is the title 2",
+    "description" : "this the description of the news number 2",
+    "content" : "this the content of the news number 2",
+    "date" : "17-09-2021",
+    "picture" : "@/assets/backgrounds/img-principale.jpg"
+  }
+}

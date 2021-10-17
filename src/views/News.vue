@@ -1,12 +1,16 @@
 <template>
   <div class="ha-news">
-    This is the news page
+    <news-component />
   </div>
 </template>
 
 <script>
+import NewsComponent from "@/components/NewsComponent";
 export default {
-  name: "News"
+  name: "News",
+  components: {
+    NewsComponent
+  },
 }
 </script>
 

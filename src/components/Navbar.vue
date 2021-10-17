@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+    <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0" style="border-bottom: 2px solid #EEE">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="../assets/logo/logo.png" height="50px" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import SingleArticle from "@/views/SingleArticle";
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/partners',
     name: 'Partners',
     component: () => import(/* webpackChunkName: "about" */ '../views/Partners')
+  },
+  {
+    path: '/single-article/:id',
+    name: 'SingleArticle',
+    component: SingleArticle,
   },
 ]
 
