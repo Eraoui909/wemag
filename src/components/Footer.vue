@@ -1,24 +1,15 @@
 <template>
   <div>
     <footer>
+      <div class="ha-erasmus-logo">
+        <a href="#"><img src="../assets/logo/erasmus.png"  alt="footer-logo"></a>
+      </div>
       <div class="footer-main">
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
               <div class="block">
-                <a href="#"><img src="../assets/logo/logo-1.png" width="300px" alt="footer-logo"></a>
-                <!-- Social Site Icons -->
-                <ul class="social-icon list-inline">
-                  <li class="list-inline-item">
-                    <a href="https://www.facebook.com/themefisher"><i class="ti-facebook"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="https://twitter.com/themefisher"><i class="ti-twitter"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="https://www.instagram.com/themefisher/"><i class="ti-instagram"></i></a>
-                  </li>
-                </ul>
+                <a href="#"><img src="../assets/logo/logo-test.png" width="300px" alt="footer-logo"></a>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
@@ -96,5 +87,10 @@ export default {
 </script>
 
 <style scoped>
+
+  .ha-erasmus-logo{
+    width: 100%;
+    background-color: rgb(200 200 200 / 19%);
+  }
 
 </style>

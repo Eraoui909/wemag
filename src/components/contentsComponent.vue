@@ -140,16 +140,7 @@ export default {
   margin: 20px auto;
   text-align: start;
 }
-.ha-title h1{
-  font-weight: bold;
-  color: #9c2f6d;
-  padding: 5px;
-  border-bottom: 6px #f292b2 solid;
-  width: fit-content;
-}
-.ha-title h1 span{
-  color: #f292b2;
-}
+
 .title h3{
   font-weight: bold !important;
   font-size: 24px !important;

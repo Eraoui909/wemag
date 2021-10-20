@@ -43,21 +43,6 @@ export default {
 
 <style scoped>
 
-.ha-title{
-  width: 80%;
-  margin: 20px auto;
-  text-align: start;
-}
-.ha-partners h1{
-  font-weight: bold;
-  color: #9c2f6d;
-  padding: 5px;
-  border-bottom: 6px #f292b2 solid;
-  width: fit-content;
-}
-.ha-partners h1 span{
-  color: #f292b2;
-}
 
 .ha-partners-container{
   width: 80%;

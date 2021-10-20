@@ -7,3 +7,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.ha-title{
+    width: 80%;
+    margin: 30px auto;
+    text-align: start;
+}
+.ha-title h1{
+    font-weight: bold;
+    color: #c8217d;
+    padding: 5px;
+    border-bottom: 6px #c8217d solid;
+    width: fit-content;
+}
+.ha-title h1 span{
+    color: #c8217d;
+}

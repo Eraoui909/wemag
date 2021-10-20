@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="ha-mini-nav">
-      <span>contact us</span>
+      <small><a href="#">contact us</a></small>
     </div>
     <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0" style="border-bottom: 2px solid #EEE">
-      <div class="container">
+      <div class="container ha-nav-contanier">
         <a class="navbar-brand ha-yas-img" href="#"><img src="../assets/logo/logo-test.png" height="80px" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,10 +68,15 @@ nav{
   padding: 1px 10px;
   color: white;
 }
-
-.ha-yas-img{
-  position: relative;
-  left: -140px;
+.ha-mini-nav a:hover{
+  color: white;
+  text-decoration: none;
 }
+
+
+.ha-nav-contanier {
+
+}
+
 
 </style>
