@@ -1,15 +1,21 @@
 <template>
   <section class="post-grid section pt-0">
     <div class="ha-title">
-      <h1><span>N</span>ews</h1>
+      <h1><span>A</span>tivities</h1>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6" v-for="article in this.news" v-bind:key="article.id">
-           <article  class="post-sm">
+
+          <article  class="post-sm">
             <!-- Post Image -->
             <div class="post-thumb">
-              <a :href="'/single-article/'+article.id"><img class="w-100 ha-article-img" :src="article.picture" alt="Post-Image"></a>
+              <a :href="'/single-article/'+article.id">
+                <img class="w-100 ha-article-img"
+                     :src="require(`../assets/activities/${article.picture[0]}`)"
+                     alt="Post-Image">
+              </a>
+
             </div>
             <!-- Post Title -->
             <div class="post-title">
@@ -22,7 +28,7 @@
                   <img src="../assets/logo/logo_small.png" alt="author-thumb">
                 </li>
                 <li class="list-inline-item">
-                  <a :href="'/single-article/'+article.id">Thomas Johnson</a>
+                  <a :href="'/single-article/'+article.id">WEMag</a>
                 </li>
                 <li class="list-inline-item">
                   {{ article.date }}
@@ -31,7 +37,7 @@
             </div>
             <!-- Post Details -->
             <div class="post-details">
-              <p>{{ article.description }}</p>
+              <p>{{ article.description.substr(0,80) }}...</p>
             </div>
           </article>
           </div>
@@ -49,51 +55,16 @@ export default {
       "news" : {
         1 : {
           "id": 1,
-          "title" : "this is the title 1",
-          "description" : "this the description of the news number 1",
-          "content" : "this the content of the news number 1",
-          "date" : "17-09-2021",
-          "picture" : "img-principale.jpg"
-        },
-        2 : {
-          "id": 2,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "img-principale.jpg"
-        },
-        3 : {
-          "id": 3,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "img-principale.jpg"
-        },
-        4 : {
-          "id": 4,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "img-principale.jpg"
-        },
-        5 : {
-          "id": 5,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "img-principale.jpg"
-        },
-        6 : {
-          "id": 6,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "img-principale.jpg"
+          "title" : "Projets CBHE/Tempus",
+          "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
+          "date" : "08 juillet 2021 à Rabat",
+          "picture" :["Erasmus-4.jpg",
+            "Erasmus-5.jpg",
+            "Erasmus-6.jpg",
+            "Erasmus-7.jpg",
+            "Erasmus-8.jpg",
+            "Erasmus-9.jpg"]
+
         }
       },
     }
@@ -106,7 +77,7 @@ export default {
 <style scoped>
 
   .post-sm{
-    box-shadow: 0px 12px 14px -6px rgb(0 0 0 / 22%) !important;
+    box-shadow: 0 12px 14px -6px rgb(0 0 0 / 22%) !important;
     background-color: white;
   }
 

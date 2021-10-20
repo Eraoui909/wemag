@@ -38,17 +38,17 @@
         <div class="rounded shadow bg-white ha-important-info" >
           <div class="row">
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-              <i class="ti-archive  h1" style="color: deeppink !important;"></i>
+              <i class="ti-archive  h1" style="color: #c8217d !important;"></i>
               <h3 class="mt-4 text-capitalize h5 ">Coordinator</h3>
               <p class="regular text-muted ">IPAG</p>
             </div>
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-              <i class="ti-shine text-primary h1" ></i>
+              <i class="ti-shine text-primary h1" style="color: #c8217d !important;"></i>
               <h3 class="mt-4 text-capitalize h5 " >Participants</h3>
               <p class="regular text-muted ">MBS, Vives, Haikara, US, UG, ADGS, USMBA, UH1, ARDM</p>
             </div>
             <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
-              <i class="ti-time text-primary h1" style="color: deeppink !important;"></i>
+              <i class="ti-time text-primary h1" style="color: #c8217d !important;"></i>
               <h3 class="mt-4 text-capitalize h5 ">Important Dates</h3>
                 <ul class="regular text-muted ha-dates-list">
                   <li><strong>Start date : </strong>15 January 2021</li>

@@ -5,7 +5,7 @@
       </div>
       <div class="ha-planning-content">
         <div><img src="../assets/planning/img.png" width="100%" alt="planning"></div>
-        <div style="text-align: start"><img src="../assets/planning/img_1.png"  alt="planning"></div>
+        <div style="text-align: start"><img src="../assets/planning/img_1.png" width="40%" alt="planning"></div>
       </div>
     </div>
 </template>

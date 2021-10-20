@@ -25,25 +25,26 @@
             <div class="post-body">
               <!-- Feature Image -->
               <div class="feature-image">
-                <img class="img-fluid" src="../assets/backgrounds/img-principale.jpg" alt="feature-image">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div  v-bind:class="(index === 0) ? 'carousel-item active': 'carousel-item'"  v-for="(pic,index) in this.article.picture" v-bind:key="pic.id">
+                      <img class="d-block w-100 img-fluid" :src="require(`../assets/activities/${pic}`)" alt="activity image">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
               <!-- Paragrapgh -->
               <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
               <p>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-              <!-- Blockquote -->
-              <div class="quote">
-                <blockquote>
-                  Design is not just what it looks like and feels like. Design is how it works.
-                </blockquote>
-              </div>
-              <!-- Paragrapgh -->
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-              <!-- Post Image -->
-              <div class="post-image text-center">
-                <img class="img-fluid" src="images/blog/post-body-image.jpg" alt="post-body-image">
-              </div>
-              <!-- Paragrapgh -->
-              <p>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+
             </div>
           </article>
 
@@ -62,58 +63,22 @@ export default {
       "news" : {
         1 : {
           "id": 1,
-          "title" : "this is the title 1",
-          "description" : "this the description of the news number 1",
-          "content" : "this the content of the news number 1",
-          "date" : "17-09-2021",
-          "picture" : "img-principale.jpg"
-        },
-        2 : {
-          "id": 2,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
-        },
-        3 : {
-          "id": 3,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
-        },
-        4 : {
-          "id": 4,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
-        },
-        5 : {
-          "id": 5,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
-        },
-        6 : {
-          "id": 6,
-          "title" : "this is the title 2",
-          "description" : "this the description of the news number 2",
-          "content" : "this the content of the news number 2",
-          "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
+          "title" : "Projets CBHE/Tempus",
+          "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
+          "date" : "08 juillet 2021 à Rabat",
+          "picture" :["Erasmus-4.jpg",
+            "Erasmus-5.jpg",
+            "Erasmus-6.jpg",
+            "Erasmus-7.jpg",
+            "Erasmus-8.jpg",
+            "Erasmus-9.jpg"]
+
         }
       },
       "article":{
         "id" : "",
         "title" : "",
         "description" : "",
-        "content" : "",
         "date" : "",
         "picture" : ""
       }
