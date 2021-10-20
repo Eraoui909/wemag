@@ -22,12 +22,12 @@
             </li>
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
+              <router-link class="nav-link" to="/about">About Us</router-link>
             </li>
 
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/news">Aticities</router-link>
+              <router-link class="nav-link" to="/activities">Aticities</router-link>
             </li>
 
             <li class="nav-item">

@@ -15,12 +15,12 @@
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Product</h6>
+                <h6>Important Links</h6>
                 <!-- links -->
                 <ul>
-                  <li><a href="team.html">Teams</a></li>
-                  <li><a href="blog.html">Blogs</a></li>
-                  <li><a href="FAQ.html">FAQs</a></li>
+                  <li><a href="/about">About WEMag</a></li>
+                  <li><a href="/activities">Activities</a></li>
+                  <li><a href="#">Contact Us</a></li>
                 </ul>
               </div>
             </div>
