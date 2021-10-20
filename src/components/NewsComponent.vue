@@ -9,7 +9,7 @@
            <article  class="post-sm">
             <!-- Post Image -->
             <div class="post-thumb">
-              <a :href="'/single-article/'+article.id"><img class="w-100" src="../assets/backgrounds/img-principale.jpg" alt="Post-Image"></a>
+              <a :href="'/single-article/'+article.id"><img class="w-100 ha-article-img" :src="article.picture" alt="Post-Image"></a>
             </div>
             <!-- Post Title -->
             <div class="post-title">
@@ -61,7 +61,7 @@ export default {
           "description" : "this the description of the news number 2",
           "content" : "this the content of the news number 2",
           "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
+          "picture" : "img-principale.jpg"
         },
         3 : {
           "id": 3,
@@ -69,7 +69,7 @@ export default {
           "description" : "this the description of the news number 2",
           "content" : "this the content of the news number 2",
           "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
+          "picture" : "img-principale.jpg"
         },
         4 : {
           "id": 4,
@@ -77,7 +77,7 @@ export default {
           "description" : "this the description of the news number 2",
           "content" : "this the content of the news number 2",
           "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
+          "picture" : "img-principale.jpg"
         },
         5 : {
           "id": 5,
@@ -85,7 +85,7 @@ export default {
           "description" : "this the description of the news number 2",
           "content" : "this the content of the news number 2",
           "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
+          "picture" : "img-principale.jpg"
         },
         6 : {
           "id": 6,
@@ -93,13 +93,12 @@ export default {
           "description" : "this the description of the news number 2",
           "content" : "this the content of the news number 2",
           "date" : "17-09-2021",
-          "picture" : "@/assets/backgrounds/img-principale.jpg"
+          "picture" : "img-principale.jpg"
         }
       },
     }
   },
   created() {
-
   }
 }
 </script>
@@ -118,7 +117,7 @@ export default {
   }
   .ha-title h1{
     font-weight: bold;
-    color: #31bdd4;
+    color: #9c2f6d;
     padding: 5px;
     border-bottom: 6px #f292b2 solid;
     width: fit-content;

@@ -3,5 +3,7 @@
 }
 
 .shapes-container{
-    /* background-image: url("../img-principale.jpg") !important; */
+    background-image: url("../bg8.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

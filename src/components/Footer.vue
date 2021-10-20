@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
               <div class="block">
-                <a href="#"><img src="../assets/logo/logo.png" width="300px" alt="footer-logo"></a>
+                <a href="#"><img src="../assets/logo/logo-1.png" width="300px" alt="footer-logo"></a>
                 <!-- Social Site Icons -->
                 <ul class="social-icon list-inline">
                   <li class="list-inline-item">

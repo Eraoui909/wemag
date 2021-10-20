@@ -35,6 +35,11 @@ const routes = [
     name: 'SingleArticle',
     component: SingleArticle,
   },
+  {
+    path: '/contents',
+    name: 'Contents',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Contents')
+  },
 ]
 
 const router = new VueRouter({

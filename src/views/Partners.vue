@@ -1,12 +1,17 @@
 <template>
   <div class="ha-partners">
-    This is the partners page
+    <PartnersComponent />
   </div>
 </template>
 
 <script>
+import PartnersComponent from "@/components/PartnersComponent";
+
 export default {
-  name: "Partners"
+  name: "Partners",
+  components:{
+    PartnersComponent
+  }
 }
 </script>
 

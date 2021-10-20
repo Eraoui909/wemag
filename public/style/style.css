@@ -409,7 +409,10 @@ button:focus,
   color: #000;
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 45px;
+}
+.main-nav .navbar-nav .nav-item .nav-link:hover{
+  color:  #c8217d;
+  border-bottom: 5px solid rgb(92, 201, 217);
 }
 
 @media (max-width: 992px) {
@@ -1149,6 +1152,7 @@ button:focus,
   padding: 100px 0 170px;
   position: relative;
   overflow: hidden;
+  height: 80vh;
 }
 
 .gradient-banner::before {
@@ -1162,7 +1166,7 @@ button:focus,
   height: 200%;
   border-radius: 50%;
   /* background-image: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%); */
-  background-image: url("../img-principale.jpg");
+  background-image: url("../bg9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

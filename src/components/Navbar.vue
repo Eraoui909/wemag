@@ -1,8 +1,11 @@
 <template>
   <div>
+    <div class="ha-mini-nav">
+      <span>contact us</span>
+    </div>
     <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0" style="border-bottom: 2px solid #EEE">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="../assets/logo/logo.png" height="50px" alt="logo"></a>
+        <a class="navbar-brand ha-yas-img" href="#"><img src="../assets/logo/logo-test.png" height="80px" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="ti-menu"></span>
@@ -12,6 +15,10 @@
 
             <li class="nav-item">
               <router-link class="nav-link" to="/">Home</router-link>
+            </li>
+
+            <li class="nav-item">
+              <router-link class="nav-link" to="/contents">Contents</router-link>
             </li>
 
             <li class="nav-item">
@@ -43,9 +50,28 @@
 
 export default {
   name: "Navbar",
+
 }
 </script>
 
 <style scoped>
+
+nav{
+  /* padding: 10px 5px !important; */
+}
+
+.ha-mini-nav{
+  position: relative;
+  width: 100%;
+  background-color: #c8217d;
+  text-align: end;
+  padding: 1px 10px;
+  color: white;
+}
+
+.ha-yas-img{
+  position: relative;
+  left: -140px;
+}
 
 </style>
