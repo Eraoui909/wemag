@@ -19,7 +19,7 @@
             </div>
             <!-- Post Title -->
             <div class="post-title">
-              <h3><a :href="'/single-article/'+article.id">{{ article.title }}</a></h3>
+              <h3><router-link :to="'/single-article/'+article.id">{{ article.title }}</router-link></h3>
             </div>
             <!-- Post Meta -->
             <div class="post-meta">

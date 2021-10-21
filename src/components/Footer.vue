@@ -18,9 +18,11 @@
                 <h6>Important Links</h6>
                 <!-- links -->
                 <ul>
-                  <li><a href="/about">About WEMag</a></li>
-                  <li><a href="/activities">Activities</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li>
+                      <router-link to="/about">About WEMag</router-link>
+                  </li>
+                  <li><router-link to="/activities">Activities</router-link></li>
+                  <li><router-link to="#">Contact Us</router-link></li>
                 </ul>
               </div>
             </div>
