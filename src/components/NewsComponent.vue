@@ -1,7 +1,7 @@
 <template>
   <section class="post-grid section pt-0">
     <div class="ha-title">
-      <h1><span>A</span>tivities</h1>
+      <h1>Activities</h1>
     </div>
     <div class="container">
       <div class="row">
@@ -10,11 +10,11 @@
           <article  class="post-sm">
             <!-- Post Image -->
             <div class="post-thumb">
-              <a :href="'/single-article/'+article.id">
+              <router-link :to="'/single-article/'+article.id">
                 <img class="w-100 ha-article-img"
                      :src="require(`../assets/activities/${article.picture[0]}`)"
                      alt="Post-Image">
-              </a>
+              </router-link>
 
             </div>
             <!-- Post Title -->

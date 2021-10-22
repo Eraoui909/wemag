@@ -17,8 +17,18 @@
     font-weight: bold;
     color: #c8217d;
     padding: 5px;
-    border-bottom: 6px #c8217d solid;
     width: fit-content;
+    font-size: 38px;
+    position: relative;
+}
+.ha-title h1:after{
+    content: " ";
+    position: absolute;
+    height: 6px;
+    background-color: #c8217d;
+    width: 50%;
+    bottom: 0;
+    left: 0;
 }
 .ha-title h1 span{
     color: #c8217d;

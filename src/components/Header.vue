@@ -23,8 +23,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 order-2 order-md-1 text-center text-md-left ha-header-container">
-            <h1 class="text-white font-weight-bold ml-5">WeMag </h1>
-            <h3 class="text-white font-weight-bold " style="margin-left: 95px">Women Entrepreneurs in the Maghreb</h3>
+            <h1 class="text-white font-weight-bold ml-5 ha-header-wemag">WeMag </h1>
+            <h3 class="text-white font-weight-bold ha-header-wemag-ab" style="margin-left: 95px">Women Entrepreneurs in the Maghreb</h3>
             <p class="text-white mb-3"></p>
           </div>
           <div class="col-md-6 text-center order-1 order-md-2">
@@ -105,6 +105,15 @@ export default {
 .ha-important-info{
   padding: 20px 10px;
   border-bottom: 13px solid #c8217d;
+}
+
+@media (max-width: 800px) {
+  .ha-header-wemag{
+    margin-left: 0 !important;
+  }
+  .ha-header-wemag-ab{
+    margin-left: 0 !important;
+  }
 }
 
 </style>

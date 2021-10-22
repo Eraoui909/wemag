@@ -14,7 +14,7 @@
                   <img src="../assets/logo/logo_small.png" alt="author-thumb">
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">WiMag</a>
+                  <a href="#">WEMag</a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#">August 8, 2021</a>

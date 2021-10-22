@@ -27,7 +27,7 @@
 
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/activities">Aticities</router-link>
+              <router-link class="nav-link" to="/activities">Activities</router-link>
             </li>
 
             <li class="nav-item">

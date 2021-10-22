@@ -2,7 +2,7 @@
   <div>
     <footer>
       <div class="ha-erasmus-logo">
-        <a href="#"><img src="../assets/logo/erasmus.png"  alt="footer-logo"></a>
+        <a href="#"><img src="../assets/logo/erasmus.png"   alt="footer-logo"></a>
       </div>
       <div class="footer-main">
         <div class="container">
@@ -22,45 +22,43 @@
                       <router-link to="/about">About WEMag</router-link>
                   </li>
                   <li><router-link to="/activities">Activities</router-link></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+              <div class="block-2">
+                <!-- heading -->
+                <h6>Project Contact</h6>
+                <!-- links -->
+                <ul>
                   <li><router-link to="#">Contact Us</router-link></li>
+                  <li><router-link to="/partners">Partners</router-link></li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Resources</h6>
+                <h6>Link</h6>
                 <!-- links -->
                 <ul>
-                  <li><a href="#">Singup</a></li>
-                  <li><a href="#">Login</a></li>
-                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Company</h6>
+                <h6>Link</h6>
                 <!-- links -->
                 <ul>
-                  <li><a href="#">Career</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Investor</a></li>
-                  <li><a href="#">Terms</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-              <div class="block-2">
-                <!-- heading -->
-                <h6>Company</h6>
-                <!-- links -->
-                <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Team</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
                 </ul>
               </div>
             </div>
@@ -93,6 +91,7 @@ export default {
   .ha-erasmus-logo{
     width: 100%;
     background-color: rgb(200 200 200 / 19%);
+    overflow: hidden;
   }
 
 </style>

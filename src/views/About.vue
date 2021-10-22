@@ -1,5 +1,20 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <AboutUsComponent />
   </div>
 </template>
+
+<script>
+  import AboutUsComponent from "@/components/AboutUsComponent";
+
+  export default {
+    name:"About",
+    components:{
+      AboutUsComponent
+    }
+  }
+</script>
+
+<style scoped>
+
+</style>
