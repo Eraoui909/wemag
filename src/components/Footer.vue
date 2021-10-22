@@ -28,7 +28,7 @@
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Project Contact</h6>
+                <h6>Project</h6>
                 <!-- links -->
                 <ul>
                   <li><router-link to="#">Contact Us</router-link></li>
