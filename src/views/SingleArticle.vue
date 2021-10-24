@@ -14,7 +14,7 @@
                   <img src="../assets/logo/logo_small.png" alt="author-thumb">
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">WEMag</a>
+                  <a href="#">WeMag</a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#">August 8, 2021</a>
@@ -42,9 +42,7 @@
                 </div>
               </div>
               <!-- Paragrapgh -->
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-              <p>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
-
+              <p>{{ this.article.description }}</p>
             </div>
           </article>
 
@@ -61,18 +59,50 @@ export default {
   data: function () {
     return {
       "news" : {
-        1 : {
+        1 :{
           "id": 1,
+          "title" : "Kick off meeting",
+          "description" : "",
+          "date" : "4 February 2021",
+          "picture" :[
+            "kick-off-1.png",
+            "kick-off-2.png",
+            "kick-off-3.png"]
+
+        },
+        2: {
+          "id": 2,
+          "title" : "Focus Groups conducted",
+          "description" : "Focus Groups conducted with female students, teachers and administration staff under the supervision of MBS",
+          "date" : "April 12th and 19th 2021",
+          "picture" :[
+            "mbs-1.png",
+            "mbs-2.png",
+            "mbs-3.png",
+            "mbs-4.png",
+            "mbs-5.png",
+            "mbs-6.png"]
+        },
+        3: {
+          "id": 3,
           "title" : "Projets CBHE/Tempus",
           "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
-          "date" : "08 juillet 2021 à Rabat",
-          "picture" :["Erasmus-4.jpg",
+          "date" : "08 July 2021 à Rabat",
+          "picture" :[
+            "Erasmus-4.jpg",
             "Erasmus-5.jpg",
             "Erasmus-6.jpg",
             "Erasmus-7.jpg",
             "Erasmus-8.jpg",
             "Erasmus-9.jpg"]
-
+        },
+        4: {
+          "id": 4,
+          "title" : "Cluster meeting of new Erasmus",
+          "description" : 'Cluster meeting of new Erasmus + CBHE projects Selection 2020 “Getting started and preparing for next steps”',
+          "date" : "October 12th 2021",
+          "picture" :[
+            "CBHE-1.png"]
         }
       },
       "article":{

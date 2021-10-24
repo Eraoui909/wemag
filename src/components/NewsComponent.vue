@@ -28,7 +28,7 @@
                   <img src="../assets/logo/logo_small.png" alt="author-thumb">
                 </li>
                 <li class="list-inline-item">
-                  <a :href="'/single-article/'+article.id">WEMag</a>
+                  <router-link :to="'/single-article/'+article.id">WeMag</router-link>
                 </li>
                 <li class="list-inline-item">
                   {{ article.date }}
@@ -53,18 +53,50 @@ export default {
   data: function () {
     return {
       "news" : {
-        1 : {
+        1 :{
           "id": 1,
+          "title" : "Kick off meeting",
+          "description" : "",
+          "date" : "4 February 2021",
+          "picture" :[
+            "kick-off-1.png",
+            "kick-off-2.png",
+            "kick-off-3.png"]
+
+        },
+        2: {
+          "id": 2,
+          "title" : "Focus Groups conducted",
+          "description" : "Focus Groups conducted with female students, teachers and administration staff under the supervision of MBS",
+          "date" : "April 12th and 19th 2021",
+          "picture" :[
+            "mbs-1.png",
+            "mbs-2.png",
+            "mbs-3.png",
+            "mbs-4.png",
+            "mbs-5.png",
+            "mbs-6.png"]
+        },
+        3: {
+          "id": 3,
           "title" : "Projets CBHE/Tempus",
           "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
-          "date" : "08 juillet 2021 à Rabat",
-          "picture" :["Erasmus-4.jpg",
+          "date" : "08 July 2021 à Rabat",
+          "picture" :[
+            "Erasmus-4.jpg",
             "Erasmus-5.jpg",
             "Erasmus-6.jpg",
             "Erasmus-7.jpg",
             "Erasmus-8.jpg",
             "Erasmus-9.jpg"]
-
+        },
+        4: {
+          "id": 4,
+          "title" : "Cluster meeting of new Erasmus",
+          "description" : 'Cluster meeting of new Erasmus + CBHE projects Selection 2020 “Getting started and preparing for next steps”',
+          "date" : "October 12th 2021",
+          "picture" :[
+            "CBHE-1.png"]
         }
       },
     }

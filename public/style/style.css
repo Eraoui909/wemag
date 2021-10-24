@@ -1492,6 +1492,7 @@ hr {
 .post-sm .post-thumb {
   margin-bottom: 15px;
   overflow: hidden;
+  height: 190px;
 }
 
 .post-sm .post-thumb img {
