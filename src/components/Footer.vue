@@ -9,7 +9,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
               <div class="block">
-                <a href="#"><img src="../assets/logo/logo-test.png" width="300px" alt="footer-logo"></a>
+                <a href="#"><img src="../assets/logo/logo.png" width="300px" alt="footer-logo"></a>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">

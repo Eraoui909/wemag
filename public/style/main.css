@@ -1,3 +1,10 @@
+:root{
+    --first-color : rgb(206, 109, 81);
+    --second-color : #f58b60;
+    --third-color : #f5a98b;
+    --fourth-color : #f6cdbd;
+}
+
 #app{
     background-color: white;
 }
@@ -6,6 +13,7 @@
     background-image: url("../bg8.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .ha-title{
@@ -15,7 +23,7 @@
 }
 .ha-title h1{
     font-weight: bold;
-    color: #c8217d;
+    color: var(--first-color);
     padding: 5px;
     width: fit-content;
     font-size: 38px;
@@ -25,11 +33,11 @@
     content: " ";
     position: absolute;
     height: 6px;
-    background-color: #c8217d;
+    background-color: var(--first-color);
     width: 50%;
     bottom: 0;
     left: 0;
 }
 .ha-title h1 span{
-    color: #c8217d;
+    color: var(--first-color);
 }

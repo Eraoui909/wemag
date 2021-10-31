@@ -411,7 +411,7 @@ button:focus,
   padding-right: 20px;
 }
 .main-nav .navbar-nav .nav-item .nav-link:hover{
-  color:  #c8217d;
+  color:  var(--first-color);
 }
 
 @media (max-width: 992px) {
@@ -676,7 +676,7 @@ button:focus,
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #f293b3;
+  background: var(--second-color);
   color: #fff;
   transition: 0.3s;
   z-index: 999556;
@@ -685,7 +685,7 @@ button:focus,
 }
 
 .scroll-top-to:hover {
-  background: #66efff;
+  background: var(--third-color);
 }
 
 @media (max-width: 768px) {
