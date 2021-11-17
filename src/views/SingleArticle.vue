@@ -119,7 +119,6 @@ export default {
     for (const index in this.news){
       if(article_id === index){
         this.article = this.news[parseInt(index)];
-        console.log(this.article)
         break;
       }
     }
