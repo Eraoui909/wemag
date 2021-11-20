@@ -1,8 +1,8 @@
 <template>
   <div class="ha-context">
-    <div class="ha-title">
+    <!-- <div class="ha-title">
       <h1><span>C</span>ontents</h1>
-    </div>
+    </div> -->
 
     <section class="privacy section pt-0">
       <div class="container">

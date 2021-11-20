@@ -15,7 +15,7 @@ import Header from "@/components/Header";
 import NewsComponent from "@/components/NewsComponent";
 import Partners from "@/components/PartnersComponent";
 import planningComponent from "@/components/planningComponent";
-import AboutUsComponent from "@/components/AboutUsComponent";
+import AboutUsComponent from "@/components/AboutUsHomeComponent";
 
 
 export default {

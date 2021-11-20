@@ -1,7 +1,7 @@
 <template>
   <section class="post-grid section pt-0">
     <div class="ha-title">
-      <h1>Activities</h1>
+      <h1>{{ $t('activities') }}</h1>
     </div>
     <div class="container">
       <div class="row">

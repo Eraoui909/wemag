@@ -1,7 +1,7 @@
 :root{
-    --first-color : rgb(206, 109, 81);
+    --first-color : #ce6d51;
     --second-color : #f58b60;
-    --third-color : #f5a98b;
+    --third-color : rgb(245, 169, 139);
     --fourth-color : #f6cdbd;
 }
 

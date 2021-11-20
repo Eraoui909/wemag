@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="text-center bg-dark py-4">
-        <small class="text-secondary">Copyright &copy; 2021. Designed &amp; Developed by
+        <small class="text-secondary">Copyright &copy; {{ this.currentDate }}.Developed by
           <a href="#">Hamza Eraoui</a>
         </small>
       </div>
@@ -82,7 +82,12 @@
 
 <script>
 export default {
-  name: "Footer"
+  name: "Footer",
+  data(){
+    return{
+      currentDate: new Date().getFullYear() ,
+    }
+  }
 }
 </script>
 
@@ -92,6 +97,10 @@ export default {
     width: 100%;
     background-color: rgb(200 200 200 / 19%);
     overflow: hidden;
+  }
+  a:hover{
+    text-decoration: none;
+    color: white;
   }
 
 </style>

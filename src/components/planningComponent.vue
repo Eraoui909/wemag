@@ -1,7 +1,7 @@
 <template>
     <div class="ha-planning">
       <div class="ha-title">
-        <h1><span>P</span>lanning</h1>
+        <h1>{{ $t('planning') }}</h1>
       </div>
       <div class="ha-planning-content">
         <div><img src="../assets/planning/img.png" width="100%" alt="planning"></div>

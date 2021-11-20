@@ -40,6 +40,11 @@ const routes = [
     name: 'Contents',
     component: () => import(/* webpackChunkName: "about" */ '../views/Contents')
   },
+  {
+    path: '/press-and-media',
+    name: 'Press_Media',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Press_media')
+  },
 ]
 
 const router = new VueRouter({

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html id="ha-html" dir="" lang="">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,7 @@
       <link rel="stylesheet" href="<%= BASE_URL %>plugins/slick/slick-theme.css">
       <link rel="stylesheet" href="<%= BASE_URL %>plugins/fancybox/jquery.fancybox.min.css">
       <link rel="stylesheet" href="<%= BASE_URL %>plugins/aos/aos.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
       <!-- CUSTOM CSS -->
       <link rel="stylesheet" href="<%= BASE_URL %>style/main.css">
@@ -37,4 +38,12 @@
 
   <!-- custom plugins -->
   <script src="<%= BASE_URL %>script/script.js"></script>
+  <script>
+      document.documentElement.lang = localStorage.getItem("lang") || "en";
+      if(localStorage.getItem("lang") !== null && localStorage.getItem("lang") !== "ar"){
+          document.documentElement.dir  = "ltr";
+      }else{
+          document.documentElement.dir  = "rtl";
+      }
+  </script>
 </html>
