@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>logo_small.png">
-    <title>WeMag</title>
+    <title>WEMag</title>
 
       <!-- PLUGINS CSS STYLE -->
       <link rel="stylesheet" href="<%= BASE_URL %>plugins/bootstrap/bootstrap.min.css">
@@ -40,10 +40,10 @@
   <script src="<%= BASE_URL %>script/script.js"></script>
   <script>
       document.documentElement.lang = localStorage.getItem("lang") || "en";
-      if(localStorage.getItem("lang") !== null && localStorage.getItem("lang") !== "ar"){
-          document.documentElement.dir  = "ltr";
-      }else{
+      if(localStorage.getItem("lang") !== null && localStorage.getItem("lang") === "ar"){
           document.documentElement.dir  = "rtl";
+      }else{
+          document.documentElement.dir  = "ltr";
       }
   </script>
 </html>

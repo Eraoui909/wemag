@@ -9,16 +9,16 @@
           <a href="#" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description this is image description this is image description
+              this is image description
             </div>
           </a>
         </div>
         <div class="item item2" @mouseenter="hoveredContent('item2')" @mouseleave="leavedContent('item2')">
           <img src="../assets/partners/img_2.png" alt="partner">
-          <a href="#" target="_blank">
+          <a href="http://www.usmba.ac.ma" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+              {{$t('usmba')}}
             </div>
           </a>
         </div>
@@ -42,10 +42,10 @@
         </div>
         <div class="item item5" @mouseenter="hoveredContent('item5')" @mouseleave="leavedContent('item5')">
           <img src="../assets/partners/img_4.png" alt="partner">
-          <a href="#" target="_blank">
+          <a href="http://www.uh1.ac.ma" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+              {{ $t('uh1') }}
             </div>
           </a>
         </div>

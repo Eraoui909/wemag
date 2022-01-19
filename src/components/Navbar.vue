@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="ha-mini-nav">
+    <div class="ha-mini-nav" >
       <small><a href="#">{{ $t('contact_us') }}</a></small>
       <small>
         <select class=" ha-custom-select" v-model="lang" @change="handleChange($event)" >
@@ -12,12 +12,12 @@
     </div>
     <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0" dir="ltr" style="border-bottom: 2px solid #EEE">
       <div class=" ha-nav-contanier">
-        <a class="navbar-brand ha-yas-img" href="#"><img src="../assets/logo/wemag-logo-p-2-v-2.png" height="75px" alt="logo"></a>
+        <a class="navbar-brand ha-yas-img" style="margin-left:20px;" href="#"><img src="../assets/logo/wemag-logo.png" height="60px" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="ti-menu"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" style="text-align: center" id="navbarNav">
           <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
@@ -44,9 +44,13 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/partners">{{ $t('partners') }}</router-link>
             </li>
-
           </ul>
         </div>
+        <a class="navbar-brand ha-yas-img" href="#">
+        </a>
+        <a class="navbar-brand ha-yas-img" href="#">
+          <img src="../assets/logo/erasmus.png" height="60px" alt="logo">
+        </a>
       </div>
     </nav>
   </div>
@@ -109,7 +113,7 @@ nav{
   .ha-nav-contanier{
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
   }
 }

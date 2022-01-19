@@ -1,11 +1,11 @@
 {
   "en"                            : "anglais",
   "ar"                            : "arabe",
-  "fr"                            : "francais",
+  "fr"                            : "français",
   "home"                          : "ACCUEIL",
-  "about_us"                      : "À PROPOS DE NOUS",
+  "about_us"                      : "Qui sommes-nous?",
   "activities"                    : "ACTIVITÉS",
-  "partners"                      : "LES PARTENAIRES",
+  "partners"                      : "PARTENAIRES",
   "project_results"               : "résultats du projet",
   "contact_us"                    : "Contactez-nous",
   "coordinator"                   : "Coordinateur",
@@ -20,7 +20,9 @@
   "important_dates"               : "dates importantes",
   "15_january_2021"               : "15 janvier 2021",
   "14_january_2024"               : "14 janvier 2024",
-  "4_february_2021"               : "4 février 2021"
+  "4_february_2021"               : "4 février 2021",
+  "usmba"                         : "Université Sidi Mohammed Ben Abdellah",
+  "uh1"                           : "Université Hassan 1er"
 
 
 
