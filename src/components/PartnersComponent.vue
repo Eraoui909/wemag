@@ -6,10 +6,10 @@
       <div class="ha-partners-container">
         <div class="item item1" @mouseenter="hoveredContent('item1')" @mouseleave="leavedContent('item1')">
           <img src="../assets/partners/img.png" alt="partner">
-          <a href="#" target="_blank">
+          <a href="https://www.ipag.edu/" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+              IPAG
             </div>
           </a>
         </div>
@@ -24,19 +24,19 @@
         </div>
         <div class="item item3" @mouseenter="hoveredContent('item3')" @mouseleave="leavedContent('item3')">
           <img src="../assets/partners/img_3.png" alt="partner">
-          <a href="#" target="_blank">
+          <a href="http://www.ugaf.rnu.tn/" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+              {{ $t("ugaf")}}
             </div>
           </a>
         </div>
         <div class="item item4" @mouseenter="hoveredContent('item4')" @mouseleave="leavedContent('item4')">
           <img src="../assets/partners/img_1.png" alt="partner">
-          <a href="#" target="_blank">
+          <a href="https://www.munich-business-school.de/" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+              {{ $t("mbf")}}
             </div>
           </a>
         </div>
@@ -51,19 +51,19 @@
         </div>
         <div class="item item6" @mouseenter="hoveredContent('item6')" @mouseleave="leavedContent('item6')">
           <img src="../assets/partners/img_5.png" alt="partner">
-          <a href="#" target="_blank">
+          <a href="http://www.uc.rnu.tn/" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+              {{ $t("rnu")}}
             </div>
           </a>
         </div>
         <div class="item item7" @mouseenter="hoveredContent('item7')" @mouseleave="leavedContent('item7')">
           <img src="../assets/partners/img_6.png" alt="partner">
-          <a href="#" target="_blank">
+          <a href="https://haikara.fr/" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+              haikara
             </div>
           </a>
         </div>
@@ -72,7 +72,7 @@
           <a href="#" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
-              this is image description
+
             </div>
           </a>
         </div>
