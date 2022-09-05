@@ -5,7 +5,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6" v-for="article in this.news" v-bind:key="article.id">
+        <div class="col-lg-4 col-md-6" v-for="article in news" v-bind:key="article.id">
 
           <article  class="post-sm">
             <!-- Post Image -->
@@ -28,7 +28,7 @@
                   <img src="../assets/logo/logo_small.png" alt="author-thumb">
                 </li>
                 <li class="list-inline-item">
-                  <router-link :to="'/single-article/'+article.id">WeMag</router-link>
+                  <router-link :to="'/single-article/'+article.id">WEMag</router-link>
                 </li>
                 <li class="list-inline-item">
                   {{ article.date }}
@@ -53,8 +53,9 @@ export default {
   data: function () {
     return {
       "news" : {
-        1 :{
-          "id": 1,
+
+        999:{
+          "id": 999,
           "title" : "Kick off meeting",
           "description" : "",
           "date" : "4 February 2021",
@@ -64,8 +65,8 @@ export default {
             "kick-off-3.png"]
 
         },
-        2: {
-          "id": 2,
+        998: {
+          "id": 998,
           "title" : "Focus Groups conducted",
           "description" : "Focus Groups conducted with female students, teachers and administration staff under the supervision of MBS",
           "date" : "April 12th and 19th 2021",
@@ -77,8 +78,8 @@ export default {
             "mbs-5.png",
             "mbs-6.png"]
         },
-        3: {
-          "id": 3,
+        997: {
+          "id": 997,
           "title" : "Projets CBHE/Tempus",
           "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
           "date" : "08 July 2021 à Rabat",
@@ -90,18 +91,29 @@ export default {
             "Erasmus-8.jpg",
             "Erasmus-9.jpg"]
         },
-        4: {
-          "id": 4,
+        996: {
+          "id": 996,
           "title" : "Cluster meeting of new Erasmus",
           "description" : 'Cluster meeting of new Erasmus + CBHE projects Selection 2020 “Getting started and preparing for next steps”',
           "date" : "October 12th 2021",
           "picture" :[
             "CBHE-1.png"]
-        }
+        },
+        995: {
+          "id": 995,
+          "title" : "1st \"Train the Trainers\" Session",
+          "description" : "Hosted by University Sidi Mohamed Ben Abdellah",
+          "date" : "5th to 9th - Septembre 2022",
+          "picture" :[
+            "Rollup.png"
+          ]
+        },
+
       },
     }
   },
-  created() {
+  methods: {
+
   }
 }
 </script>

@@ -67,12 +67,23 @@
             </div>
           </a>
         </div>
+
         <div class="item item8" @mouseenter="hoveredContent('item8')" @mouseleave="leavedContent('item8')">
           <img src="../assets/partners/img_7.png" alt="partner">
           <a href="#" target="_blank">
             <div class="ha-hovered-popup"></div>
             <div class="ha-hovered-content">
 
+            </div>
+          </a>
+        </div>
+
+        <div class="item item9" @mouseenter="hoveredContent('item9')" @mouseleave="leavedContent('item9')">
+          <img src="../assets/partners/vives.svg" alt="partner">
+          <a href="https://www.vives.be/nl/onderzoek/business-management-sociale-innovatie/women-entrepreneurs-maghreb" target="_blank">
+            <div class="ha-hovered-popup"></div>
+            <div class="ha-hovered-content">
+              vives hogeschool
             </div>
           </a>
         </div>

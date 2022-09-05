@@ -11,13 +11,13 @@
               <!-- Tags -->
               <ul class="list-inline post-tag">
                 <li class="list-inline-item">
-                  <img src="../assets/logo/logo_small.png" alt="author-thumb">
+                  <img src="../assets/logo/logo_small.png"  alt="author-thumb">
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">WeMag</a>
+                  <a href="#">WEMag</a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">August 8, 2021</a>
+                  <a href="#">{{ this.article.date }}</a>
                 </li>
               </ul>
             </div>
@@ -28,7 +28,9 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div  v-bind:class="(index === 0) ? 'carousel-item active': 'carousel-item'"  v-for="(pic,index) in this.article.picture" v-bind:key="pic.id">
-                      <img class="d-block w-100 img-fluid" :src="require(`../assets/activities/${pic}`)" alt="activity image">
+                      <center>
+                        <img class="d-block w-100 img-fluid" :src="require(`../assets/activities/${pic}`)" style="" alt="activity image">
+                      </center>
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -59,8 +61,9 @@ export default {
   data: function () {
     return {
       "news" : {
-        1 :{
-          "id": 1,
+
+        999:{
+          "id": 999,
           "title" : "Kick off meeting",
           "description" : "",
           "date" : "4 February 2021",
@@ -70,8 +73,8 @@ export default {
             "kick-off-3.png"]
 
         },
-        2: {
-          "id": 2,
+        998: {
+          "id": 998,
           "title" : "Focus Groups conducted",
           "description" : "Focus Groups conducted with female students, teachers and administration staff under the supervision of MBS",
           "date" : "April 12th and 19th 2021",
@@ -83,8 +86,8 @@ export default {
             "mbs-5.png",
             "mbs-6.png"]
         },
-        3: {
-          "id": 3,
+        997: {
+          "id": 997,
           "title" : "Projets CBHE/Tempus",
           "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
           "date" : "08 July 2021 à Rabat",
@@ -96,22 +99,25 @@ export default {
             "Erasmus-8.jpg",
             "Erasmus-9.jpg"]
         },
-        4: {
-          "id": 4,
+        996: {
+          "id": 996,
           "title" : "Cluster meeting of new Erasmus",
           "description" : 'Cluster meeting of new Erasmus + CBHE projects Selection 2020 “Getting started and preparing for next steps”',
           "date" : "October 12th 2021",
           "picture" :[
             "CBHE-1.png"]
-        }
+        },
+        995: {
+          "id": 995,
+          "title" : "1st \"Train the Trainers\" Session",
+          "description" : "Hosted by University Sidi Mohamed Ben Abdellah",
+          "date" : "5th to 9th - Septembre 2022",
+          "picture" :[
+            "Rollup.png"
+          ]
+        },
+
       },
-      "article":{
-        "id" : "",
-        "title" : "",
-        "description" : "",
-        "date" : "",
-        "picture" : ""
-      }
     }
   },
   created() {

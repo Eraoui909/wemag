@@ -5,30 +5,31 @@
         <a href="#"><img src="../assets/logo/erasmus.png"   alt="footer-logo"></a>
       </div>
       <div class="footer-main">
+
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
               <div class="block">
-                <a href="#"><img src="../assets/logo/logo-inverse.png" width="300px" alt="footer-logo"></a>
+                <a href="#"><img src="../assets/logo/logo-inverse-1.png" width="250px" alt="footer-logo"></a>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Important Links</h6>
+                <h6>{{  $t('important_links') }}</h6>
                 <!-- links -->
                 <ul>
                   <li>
-                      <router-link to="/about">About WEMag</router-link>
+                    <router-link to="/about">{{ $t('about_us')}}</router-link>
                   </li>
-                  <li><router-link to="/activities">Activities</router-link></li>
+                  <li><router-link to="/activities">{{ $t('activities')}}</router-link></li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Project</h6>
+                <h6>{{ $t('project')}}</h6>
                 <!-- links -->
                 <ul>
                   <li><router-link to="#">Contact Us</router-link></li>
@@ -39,31 +40,30 @@
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Link</h6>
+                <h6>Links</h6>
                 <!-- links -->
                 <ul>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
-                  <li><a href="#">link</a></li>
+                  <li><a href="#">{{ $t('press_and_media')}}</a></li>
+                  <li><a href="#">{{ $t('project_results') }}</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Link</h6>
+                <!--<h6>Link</h6>-->
                 <!-- links -->
-                <ul>
+                <!--<ul>
                   <li><a href="#">link</a></li>
                   <li><a href="#">link</a></li>
                   <li><a href="#">link</a></li>
                   <li><a href="#">link</a></li>
-                </ul>
+                </ul>-->
               </div>
             </div>
           </div>
         </div>
+
       </div>
       <div class="text-center bg-dark py-4">
         <small class="text-secondary">Copyright &copy; {{ this.currentDate }}.Developed by
@@ -95,7 +95,7 @@ export default {
 
   .ha-erasmus-logo{
     width: 100%;
-    background-color: rgb(200 200 200 / 19%);
+    background-color: #F5F5F5;
     overflow: hidden;
   }
   a:hover{
