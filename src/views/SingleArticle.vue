@@ -29,7 +29,7 @@
                   <div class="carousel-inner">
                     <div  v-bind:class="(index === 0) ? 'carousel-item active': 'carousel-item'"  v-for="(pic,index) in this.article.picture" v-bind:key="pic.id">
                       <center>
-                        <img class="d-block w-100 img-fluid" :src="require(`../assets/activities/${pic}`)" style="" alt="activity image">
+                        <img class="d-block w-100 img-fluid" :src="require(`../assets/activities/${pic}`)" style="max-width: 600px"  alt="activity image">
                       </center>
                     </div>
                   </div>
@@ -45,6 +45,11 @@
               </div>
               <!-- Paragrapgh -->
               <p>{{ this.article.description }}</p>
+
+              <div v-if="this.article.pdf">
+                <iframe :src="this.article.pdf" frameborder="0" width="100%" height="600px" ></iframe>
+              </div>
+
             </div>
           </article>
 
@@ -111,6 +116,7 @@ export default {
           "id": 995,
           "title" : "1st \"Train the Trainers\" Session",
           "description" : "Hosted by University Sidi Mohamed Ben Abdellah",
+          "pdf"  : "program TT vf.pdf",
           "date" : "5th to 9th - Septembre 2022",
           "picture" :[
             "Rollup.png"
