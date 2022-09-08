@@ -2,6 +2,8 @@
 
   <div>
     <section class="section gradient-banner">
+
+      <!-- banner background-->
       <div class="shapes-container">
         <div class="shapes-container-pop-up"></div>
         <div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
@@ -21,6 +23,8 @@
         <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
         <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
       </div>
+
+
 
       <div class="container">
         <div class="row align-items-center">
