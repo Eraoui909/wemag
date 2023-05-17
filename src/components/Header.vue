@@ -3,7 +3,7 @@
   <div>
     <section class="section gradient-banner">
 
-      <!-- banner background-->
+      <!-- banner background -->
       <div class="shapes-container">
         <div class="shapes-container-pop-up"></div>
         <div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
@@ -24,7 +24,16 @@
         <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
       </div>
 
-
+      <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img class="d-block w-100" src="bg8.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="universitat-wemag.jpg" alt="Second slide">
+          </div>
+        </div>
+      </div> -->
 
       <div class="container">
         <div class="row align-items-center">

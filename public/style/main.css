@@ -16,6 +16,12 @@
     background-position: center;
 }
 
+.ha-image-carousel{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .ha-title{
     width: 80%;
     margin: 30px auto;
