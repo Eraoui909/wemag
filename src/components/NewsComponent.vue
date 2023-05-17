@@ -82,7 +82,7 @@ export default {
           "id": 997,
           "title" : "Projets CBHE/Tempus",
           "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
-          "date" : "08 July 2021 à Rabat",
+          "date" : "08 July 2021 in Rabat",
           "picture" :[
             "Erasmus-4.jpg",
             "Erasmus-5.jpg",
@@ -105,7 +105,81 @@ export default {
           "description" : "Hosted by University Sidi Mohamed Ben Abdellah",
           "date" : "5th to 9th - Septembre 2022",
           "picture" :[
-            "Rollup.png"
+          "event1-1.jpeg",
+            "Rollup.png",
+            "event1-2.jpeg",
+            "event1-3.jpeg",
+            "event1-4.jpeg",
+            "event1-5.jpeg",
+            "event1-6.jpeg",
+            "event1-7.jpeg",
+            "event1-8.jpeg",
+            "event1-9.jpeg",
+            "event1-10.jpeg",
+            "event1-11.jpeg",
+            "event1-12.jpeg",
+            "event1-13.jpeg"
+          ]
+        },
+        994: {
+          "id": 994,
+          "title" : "Startup Week-Munich Business School",
+          "description" : "Startup Week-Munich Business School",
+          "date" : "From 5th to 11th - February 2023",
+          "picture" :[
+            "event4-2.jpg",
+            "event4-3.jpg",
+            "event4-4.jpg",
+            "event4-5.jpg",
+            "event4-6.jpg",
+            "event4-7.jpg"
+          ]
+        },
+        993: {
+          "id": 993,
+          "title" : "Feedback on Munich Business School Startup Week",
+          "description" : "Feedback on Munich Business School Startup Week",
+          "date" : "2nd April 2023",
+          "picture" :[
+            "event2-1.jpg",
+            "event2-2.jpg",
+            "event2-3.jpg"
+          ]
+        },
+        992: {
+          "id": 992,
+          "title" : "Train the Trainers, held in Sousse ",
+          "description" : "Train the Trainers, held in Sousse ",
+          "date" : "25th, 26th and 27th April 2023",
+          "picture" :[
+            "event5-1.jpg",
+            "event5-2.jpg",
+            "event5-3.jpg",
+            "event5-4.jpg",
+            "event5-5.jpg",
+            "event5-6.jpg"
+          ]
+        },
+        991: {
+          "id": 991,
+          "title" : "2nd Train the Trainer Session",
+          "description" : "Held in Marrakech",
+          "date" : "From 9th to 13th - May 2023",
+          "picture" :[
+            "event3-1.jpg",
+            "event3-2.jpg",
+            "event3-3.jpg",
+            "event3-4.jpg",
+            "event3-5.jpg",
+            "event3-6.jpg",
+            "event3-7.jpg",
+            "event3-8.jpg",
+            "event3-9.jpg",
+            "event3-10.jpg",
+            "event3-11.jpg",
+            "event3-12.jpg",
+            "event3-13.jpg",
+            "event3-14.jpg"
           ]
         },
 

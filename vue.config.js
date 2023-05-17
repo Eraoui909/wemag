@@ -2,7 +2,7 @@ module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
         ? '/'
         : '',
-    // Other options include:
+    //Other options include:
     outputDir: undefined,
     assetsDir: undefined,
     runtimeCompiler: undefined,
