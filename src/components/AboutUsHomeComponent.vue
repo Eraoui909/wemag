@@ -6,7 +6,7 @@
     <div class="ha-content">
       <div class="ha-section">
         <p>
-          WeMag is a Capacity Building project in the field of Higher Education. It involves 10
+          WEMag is a Capacity Building project in the field of Higher Education. It involves 10
           institutions and 5 countries. Its overall goal is to improve young Maghrebin educated
           women’s self-employment prospects by providing them with entrepreneurial knowledge
           and access to business networks.

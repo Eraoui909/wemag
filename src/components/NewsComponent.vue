@@ -127,6 +127,7 @@ export default {
           "description" : "Startup Week-Munich Business School",
           "date" : "From 5th to 11th - February 2023",
           "picture" :[
+            "event4-1.jpg",
             "event4-2.jpg",
             "event4-3.jpg",
             "event4-4.jpg",
@@ -137,6 +138,36 @@ export default {
         },
         993: {
           "id": 993,
+          "title" : "Start-up Week, held in Nice (France)",
+          "description" : "Start-up Week, held in Nice (France)",
+          "date" : "from 19th to 25th - March 2023",
+          "picture" :[
+            "event6-1.jpg",
+            "event6-2.jpg",
+            "event6-3.jpg",
+            "event6-4.jpg",
+            "event6-5.jpg",
+            "event6-6.jpg",
+            "event6-7.jpg",
+            "event6-8.jpg",
+            "event6-9.jpg",
+            "event6-10.jpg",
+            "event6-11.jpg",
+            "event6-12.jpg",
+            "event6-13.jpg",
+            "event6-14.jpg",
+            "event6-15.jpg",
+            "event6-16.jpg",
+            "event6-17.jpg",
+            "event6-18.jpg",
+            "event6-19.jpg",
+            "event6-20.jpg",
+            "event6-21.jpg",
+            "event6-22.jpg"
+          ]
+        },
+        992: {
+          "id": 992,
           "title" : "Feedback on Munich Business School Startup Week",
           "description" : "Feedback on Munich Business School Startup Week",
           "date" : "2nd April 2023",
@@ -146,9 +177,9 @@ export default {
             "event2-3.jpg"
           ]
         },
-        992: {
-          "id": 992,
-          "title" : "Train the Trainers, held in Sousse ",
+        991: {
+          "id": 991,
+          "title" : "Train the Trainers, held in Sousse (Tunisia)",
           "description" : "Train the Trainers, held in Sousse ",
           "date" : "25th, 26th and 27th April 2023",
           "picture" :[
@@ -160,8 +191,8 @@ export default {
             "event5-6.jpg"
           ]
         },
-        991: {
-          "id": 991,
+        990: {
+          "id": 990,
           "title" : "2nd Train the Trainer Session",
           "description" : "Held in Marrakech",
           "date" : "From 9th to 13th - May 2023",
