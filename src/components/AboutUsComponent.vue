@@ -4,23 +4,7 @@
       <h1>{{ $t('about_us') }}</h1>
     </div>
     <div class="ha-content">
-      <div class="ha-section">
-        <p>
-          WEMag is a Capacity Building project in the field of Higher Education. It involves 10
-          institutions and 5 countries. Its overall goal is to improve young Maghrebin educated
-          women’s self-employment prospects by providing them with entrepreneurial knowledge
-          and access to business networks.
-        </p>
-      </div>
-      <div class="ha-section">
-        <p>
-          The project is made of core activities, which expected results are broken down into Work
-          Packages (WP 1-6) and linked to the target groups’ needs they are expected to meet. The
-          methodology emphasizes a participatory approach with the project partners but also with
-          the target group, in order to co-create an effective curriculum dedicated to promote female
-          entrepreneurship.
-        </p>
-      </div>
+      <div v-html="$t('about_us_content')"></div>
       <div class="ha-section">
         <contentsComponent />
 

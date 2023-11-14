@@ -1,5 +1,5 @@
 {
-  "name": "wimag",
+  "name": "wemag",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,7 +24,7 @@
     "@vue/cli-service": "^5.0.8",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "^7.20.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2"
   }
