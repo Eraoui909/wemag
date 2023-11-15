@@ -56,9 +56,9 @@ export default {
 
         999:{
           "id": 999,
-          "title" : "Kick off meeting",
-          "description" : "",
-          "date" : "4 February 2021",
+          "title" : this.$t('posts.post_999.title'),
+          "description" : this.$t('posts.post_999.description'),
+          "date" : this.$t('posts.post_999.date'),
           "picture" :[
             "kick-off-1.png",
             "kick-off-2.png",
@@ -67,9 +67,9 @@ export default {
         },
         998: {
           "id": 998,
-          "title" : "Focus Groups conducted",
-          "description" : "Focus Groups conducted with female students, teachers and administration staff under the supervision of MBS",
-          "date" : "April 12th and 19th 2021",
+          "title" : this.$t('posts.post_998.title'),
+          "description" : this.$t('posts.post_998.description'),
+          "date" : this.$t('posts.post_998.date'),
           "picture" :[
             "mbs-1.png",
             "mbs-2.png",
@@ -80,9 +80,9 @@ export default {
         },
         997: {
           "id": 997,
-          "title" : "Projets CBHE/Tempus",
-          "description" : "Cluster Meeting des projets CBHE/Tempus dans le domaine de : \" Entrepreneuriat et Employabilité\" »",
-          "date" : "08 July 2021 in Rabat",
+          "title" : this.$t('posts.post_997.title'),
+          "description" : this.$t('posts.post_997.description'),
+          "date" : this.$t('posts.post_997.date'),
           "picture" :[
             "Erasmus-4.jpg",
             "Erasmus-5.jpg",
@@ -93,17 +93,17 @@ export default {
         },
         996: {
           "id": 996,
-          "title" : "Cluster meeting of new Erasmus",
-          "description" : 'Cluster meeting of new Erasmus + CBHE projects Selection 2020 “Getting started and preparing for next steps”',
-          "date" : "October 12th 2021",
+          "title" : this.$t('posts.post_996.title'),
+          "description" : this.$t('posts.post_996.description'),
+          "date" : this.$t('posts.post_996.date'),
           "picture" :[
             "CBHE-1.png"]
         },
         995: {
           "id": 995,
-          "title" : "1st \"Train the Trainers\" Session",
-          "description" : "Hosted by University Sidi Mohamed Ben Abdellah",
-          "date" : "5th to 9th - Septembre 2022",
+          "title" : this.$t('posts.post_995.title'),
+          "description" : this.$t('posts.post_995.description'),
+          "date" : this.$t('posts.post_995.date'),
           "picture" :[
           "event1-1.jpeg",
             "Rollup.png",
@@ -123,9 +123,9 @@ export default {
         },
         994: {
           "id": 994,
-          "title" : "Startup Week-Munich Business School",
-          "description" : "Startup Week-Munich Business School",
-          "date" : "From 5th to 11th - February 2023",
+          "title" : this.$t('posts.post_994.title'),
+          "description" : this.$t('posts.post_994.description'),
+          "date" : this.$t('posts.post_994.date'),
           "picture" :[
             "event4-1.jpg",
             "event4-2.jpg",
@@ -138,9 +138,9 @@ export default {
         },
         993: {
           "id": 993,
-          "title" : "Start-up Week, held in Nice (France)",
-          "description" : "Start-up Week, held in Nice (France)",
-          "date" : "from 19th to 25th - March 2023",
+          "title" : this.$t('posts.post_993.title'),
+          "description" : this.$t('posts.post_993.description'),
+          "date" : this.$t('posts.post_993.date'),
           "picture" :[
             "event6-1.jpg",
             "event6-2.jpg",
@@ -168,9 +168,9 @@ export default {
         },
         992: {
           "id": 992,
-          "title" : "Feedback on Munich Business School Startup Week",
-          "description" : "Feedback on Munich Business School Startup Week",
-          "date" : "2nd April 2023",
+          "title" : this.$t('posts.post_992.title'),
+          "description" : this.$t('posts.post_992.description'),
+          "date" : this.$t('posts.post_992.date'),
           "picture" :[
             "event2-1.jpg",
             "event2-2.jpg",
@@ -179,9 +179,9 @@ export default {
         },
         991: {
           "id": 991,
-          "title" : "Train the Trainers, held in Sousse (Tunisia)",
-          "description" : "Train the Trainers, held in Sousse ",
-          "date" : "25th, 26th and 27th April 2023",
+          "title" : this.$t('posts.post_991.title'),
+          "description" : this.$t('posts.post_991.description'),
+          "date" : this.$t('posts.post_991.date'),
           "picture" :[
             "event5-1.jpg",
             "event5-2.jpg",
@@ -193,9 +193,9 @@ export default {
         },
         990: {
           "id": 990,
-          "title" : "2nd Train the Trainer Session",
-          "description" : "Held in Marrakech",
-          "date" : "From 9th to 13th - May 2023",
+          "title" : this.$t('posts.post_990.title'),
+          "description" : this.$t('posts.post_990.description'),
+          "date" : this.$t('posts.post_990.date'),
           "picture" :[
             "event3-1.jpg",
             "event3-2.jpg",
