@@ -55,9 +55,9 @@ export default {
 
         999:{
           "id": 999,
-          "title" : "Dans le cadre d'Erasmus+ WEMAG, la FSJES de l'USMBA de Fès accueille, durant 5 jours, la 1ère session de formation des formateurs portant sur l'entrepreneuriat féminin",
-          "description" : "<a href='https://www.universitatv.com/FR/dans-le-cadre-derasmus-wemag-la-fsjes-de-lusmba-de-fes-accueille-durant-5-jours-la-1ere-session-de-formation-des-formateurs-portant-sur-lentrepreneuriat-feminin' target='_blank'>universitatv.com</a>",
-          "date" : "7 Septembre 2022",
+          "title" : this.$t('press_and_media_posts.post_999.title'),
+          "description" : this.$t('press_and_media_posts.post_999.description'),
+          "date" : this.$t('press_and_media_posts.post_999.date'),
           "url" : "https://www.universitatv.com/FR/dans-le-cadre-derasmus-wemag-la-fsjes-de-lusmba-de-fes-accueille-durant-5-jours-la-1ere-session-de-formation-des-formateurs-portant-sur-lentrepreneuriat-feminin",
           "picture" :[
             "universitat-wemag.jpg",]
