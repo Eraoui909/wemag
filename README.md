@@ -1,5 +1,7 @@
 # wimag
 
+requirements: npm@7.5.5 and node@v20.9.0
+
 ## Project setup
 ```
 npm install
