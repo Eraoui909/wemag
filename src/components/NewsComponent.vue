@@ -37,7 +37,7 @@
             </div>
             <!-- Post Details -->
             <div class="post-details">
-              <p>{{ article.description.substr(0,80) }}...</p>
+              <p>{{ article.description.substr(0,40) }}...</p>
             </div>
           </article>
           </div>
@@ -211,6 +211,18 @@ export default {
             "event3-12.jpg",
             "event3-13.jpg",
             "event3-14.jpg"
+          ]
+        },
+        989: {
+          "id": 989,
+          "title" : this.$t('posts.post_989.title'),
+          "description" : this.$t('posts.post_989.description'),
+          "date" : this.$t('posts.post_989.date'),
+          "content": this.$t('posts.post_989.content'),
+          "pdf": "wemag-program-final.pdf",
+          "picture" :[
+            "event8-1.jpeg",
+            "event8-2.jpeg",
           ]
         },
 

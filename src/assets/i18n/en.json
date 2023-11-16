@@ -37,7 +37,13 @@
   "goals_and_objectives_content"          : "<div>WEMag’s overall goal is to improve young Maghrebin educated women’s self-employment prospects by providing them with entrepreneurial knowledge and access to business networks. To reach this goal, the project will achieve the following objectives: <ol> <li>Improve the entrepreneurial knowledge and skills off female students and recent graduates in Tunisia and Morocco after formal education through a new, common university course (UC) on entrepreneurship especially designed for women. <br><br> Key performance indicators (KPIs): <ul> <li>Number of students expected to complete the 1-year UC by the end of the project: min. 160 (at least 20 per Partner Country HEI in 2021/22 at 2022/23; Upper target: 240).</li> <li>Number of companies launched by students after having completed the UC and the follow-up mentoring support system by the end of the project: 4</li> </ul> </li> <li> Foster the entrepreneurial spirit of female students and help them build professional networks for business creation with key actors in their local start-up ecosystems (offering business incubation, acceleration, training, mentorship and funding). <br><br> Key performance indicators (KPIs): <ul> <li>Number of female students / recent graduates in Tunisia and Morocco completing immersion internships at local startups, incubators or accelerators by the end of the project: min. 160; Upper target: 230. They will also be geared towards an incubator that can help them obtain funding for their project, like R&D Maroc and ADGS.</li> <li>Increase in the motivation of female students to start a business observed before and after having completed the UC, measured in percentage points: 20.</li> </ul> </li> <li> Improve entrepreneurial pedagogy in Tunisia and Morocco through a Teachers’ Training. To transmit the knowledge students lack in entrepreneurship and give them the support they need, their teachers will be offered a tailored training, built on innovative and active pedagogy, design thinking around gender-specific obstacles and solutions, and entrepreneurial storytelling. <br><br> Key performance indicators (KPIs): <ul> <li>Number of teachers from the HEI in Tunisia and Morocco completing the TT by the end of the project: at least 25. Upper target: 50</li> <li>Recorded improvement in entrepreneurial teaching skills recorded among HEI teachers in partner countries, measured in percentage points: 20.</li> </ul> </li> </ol> </div>",
   "activities_and_workpackages_content"   : "<p>The project is made up of one preparation-, four development-, one quality control-, one dissemination- and one management- workpackages.</p> <ul> <li><b>WP1 : </b> Teacher teaching (TT) and university course (UC) preparation</li> <li><b>WP2 : </b> Teacher teaching design and pilot in face-to-face settings</li> <li><b>WP3 : </b> University course design and face-to-face pilot</li> <li><b>WP4 : </b>Blended learning development and pilot</li> <li><b>WP5 : </b>Quality Assurance - External evaluation of the quality and relevance of project deliverables</li> <li><b>WP6 : </b>Dissemination and exploitation</li> <li><b>WP7 : </b>Management</li> </ul> ",
   "deliverables_content"                  : "<div><b>Teachers' Training (TT)</b><ul><li>creation</li><li>piloting</li><li>Evaluation (face-to-face or classroom setting, blended format)</li></ul></div><div><b>University Course on entrepreneurship for women UC</b><ul><li>creation</li><li>piloting</li><li>Evaluation (face-to-face or classroom setting, blended format)</li></ul></div>",
-  "posts"                              : {
+  "posts" : {
+    "post_989"  : {
+      "title"             : "WEMAG | train the trainer | soft skills and design thinking",
+      "description"       : "The Faculty of Medicine of Sousse",
+      "date"              : "25, 26, 27 April 2023",
+      "content"           : "<h2>Event Description and Objectives:</h2><p>The Training of Trainers (TT) event, building on the earlier co-creation sessions mentioned in the previous communication, took place on June 8th and 9th, 2021. This event aimed to equip participants with the skills and knowledge necessary for the successful implementation of the University Course (UC) and Teacher Training (TT) components within the WEMag project. The focus was on fostering innovation in entrepreneurial pedagogy, particularly with a face-to-face setting in the Maghreb.</p><h2>Participants:</h2><p>The event saw the participation of 26 individuals, including educators, administrators, and other stakeholders involved in the development and implementation of UC and TT.</p><h2>Partners Present:</h2><p>Two key partners, Vives and Ipag, played a leading role in organizing and facilitating the event. Their collaboration was instrumental in guiding the participants through the process of creating innovative content for UC and TT.</p><h2>Highlighted Success Stories:</h2><p>The event featured presentations showcasing success stories from Novation City Technopole Robotics Lab and Cosmetics Lab in Sidi Bouali. These presentations provided valuable insights and practical examples that contributed to the overall learning experience during the TOT.</p><h2>Outcome:</h2><p>The TT event served as a platform for collaborative efforts, enabling participants to contribute ideas, share experiences, and gain the necessary expertise for the subsequent development and implementation of the UC and TT components. The success stories presented from Novation City Technopole Robotics Lab and Cosmetics Lab added a real-world dimension to the discussions, inspiring and informing the creation of content for female entrepreneurship programs in the Maghreb region.</p>"
+    },
       "post_990"  : {
         "title"             : "2nd Train the Trainer Session",
         "description"       : "Held in Marrakech",
@@ -85,7 +91,7 @@
       },
       "post_999"  : {
         "title"             : "Kick off meeting",
-        "description"       : "",
+        "description"       : "Kick off meeting",
         "date"              : "4 February 2021"
       }
   },
@@ -94,7 +100,19 @@
       "title"             : "As part of Erasmus+ WEMAG, the FSJES of USMBA in Fes hosts the 1st Train the Trainer session on female entrepreneurship for 5 days",
       "description"       : "<a href='https://www.universitatv.com/FR/dans-le-cadre-derasmus-wemag-la-fsjes-de-lusmba-de-fes-accueille-durant-5-jours-la-1ere-session-de-formation-des-formateurs-portant-sur-lentrepreneuriat-feminin' target='_blank'>universitatv.com</a>",
       "date"              : "September 7, 2022"
+    },
+    "post_998"  : {
+      "title"             : "Testimonials and video event related to the Trainer Training held at the University of Sousse",
+      "description"       : "<a href='https://www.youtube.com/watch?v=tfPnjxibweo&authuser=0' target='_blank'>video</a>",
+      "date"              : "April 25, 26, and 27, 2023"
     }
+  },
+
+  "footer": {
+    "links": "links",
+    "partners": "partners",
+    "contact_us": "Contact Us",
+    "activities": "Activities"
   }
 
 }

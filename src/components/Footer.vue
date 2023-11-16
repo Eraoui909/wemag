@@ -22,7 +22,7 @@
                   <li>
                     <router-link to="/about">{{ $t('about_us')}}</router-link>
                   </li>
-                  <li><router-link to="/activities">{{ $t('activities')}}</router-link></li>
+                  <li><router-link to="/activities">{{ $t('footer.activities')}}</router-link></li>
                 </ul>
               </div>
             </div>
@@ -32,15 +32,15 @@
                 <h6>{{ $t('project')}}</h6>
                 <!-- links -->
                 <ul>
-                  <li><router-link to="#">Contact Us</router-link></li>
-                  <li><router-link to="/partners">Partners</router-link></li>
+                  <li><router-link to="#">{{ $t('footer.contact_us') }}</router-link></li>
+                  <li><router-link to="/partners">{{ $t('footer.partners') }}</router-link></li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
               <div class="block-2">
                 <!-- heading -->
-                <h6>Links</h6>
+                <h6>{{ $t('footer.links') }}</h6>
                 <!-- links -->
                 <ul>
                   <li><a href="#">{{ $t('press_and_media')}}</a></li>
@@ -67,7 +67,7 @@
       </div>
       <div class="text-center bg-dark py-4">
         <small class="text-secondary">Copyright &copy; {{ this.currentDate }}.Developed by
-          <a href="#">Hamza Eraoui</a>
+          <a href="https://www.linkedin.com/in/hamza-eraoui/" target="_blank">Hamza Eraoui</a>
         </small>
       </div>
     </footer>

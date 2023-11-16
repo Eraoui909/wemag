@@ -63,6 +63,16 @@ export default {
             "universitat-wemag.jpg",]
 
         },
+        998:{
+          "id": 998,
+          "title" : this.$t('press_and_media_posts.post_998.title'),
+          "description" : this.$t('press_and_media_posts.post_998.description'),
+          "date" : this.$t('press_and_media_posts.post_998.date'),
+          "url" : "https://youtu.be/tfPnjxibweo",
+          "picture" :[
+            "ersmus-video-screen.png",]
+
+        },
 
 
       },

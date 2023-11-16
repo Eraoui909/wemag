@@ -25,6 +25,7 @@ h2 {
 h3 {
   font-size: 20px;
   line-height: 30px;
+  height: 50px;
 }
 
 p, li, blockquote, label {
@@ -2211,6 +2212,10 @@ hr {
   top: 40px !important;
   color: var(--first-color);
 
+}
+
+.post-details{
+  padding-bottom: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */

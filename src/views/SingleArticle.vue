@@ -46,6 +46,11 @@
               <!-- Paragrapgh -->
               <p>{{ this.article.description }}</p>
 
+              <!-- Content -->
+              <div v-if="this.article.content">
+                  <div v-html="this.article.content"></div>
+              </div>
+
               <div v-if="this.article.pdf">
                 <iframe :src="this.article.pdf" frameborder="0" width="100%" height="600px" ></iframe>
               </div>
@@ -228,6 +233,18 @@ export default {
             "event3-12.jpg",
             "event3-13.jpg",
             "event3-14.jpg"
+          ]
+        },
+        989: {
+          "id": 989,
+          "title" : this.$t('posts.post_989.title'),
+          "description" : this.$t('posts.post_989.description'),
+          "date" : this.$t('posts.post_989.date'),
+          "content": this.$t('posts.post_989.content'),
+          "pdf": "wemag-program-final.pdf",
+          "picture" :[
+            "event8-1.jpeg",
+            "event8-2.jpeg",
           ]
         },
 },
