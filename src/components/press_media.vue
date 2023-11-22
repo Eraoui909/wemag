@@ -18,7 +18,7 @@
 
             </div>
             <!-- Post Title -->
-            <div class="post-title">
+            <div class="post-title" style="height: 100px;">
               <h3><a :href="article.url" target="_blank">{{ article.title.substr(0,90) }}...</a></h3>
             </div>
             <!-- Post Meta -->

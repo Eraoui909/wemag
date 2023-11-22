@@ -38,7 +38,18 @@
             </li>
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/project-results">{{ $t('project_results') }}</router-link>
+              
+              <div class="main-nav dropdown"  >
+                <router-link class="nav-link" to="/project-results">{{ $t('project_results') }}</router-link>
+                <div class="dropdown-menu">
+                  <span>
+                    <router-link class="nav-link" to="/project-results">{{ $t('deliverables') }}</router-link>
+                  </span>
+                  <span >
+                    <router-link class="nav-link" to="/project-results">{{ $t('project_results') }}</router-link>
+                  </span>
+                  </div>
+              </div>
             </li>
 
             <li class="nav-item">

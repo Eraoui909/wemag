@@ -199,25 +199,29 @@ export default {
             "event2-3.jpg"
           ]
         },
-        991: {
-          "id": 991,
-          "title" : this.$t('posts.post_991.title'),
-          "description" : this.$t('posts.post_991.description'),
-          "date" : this.$t('posts.post_991.date'),
+        990: {
+          "id": 990,
+          "title" : this.$t('posts.post_990.title'),
+          "description" : this.$t('posts.post_990.description'),
+          "date" : this.$t('posts.post_990.date'),
+          "content": this.$t('posts.post_990.content'),
+          "pdf": "wemag-program-final.pdf",
           "picture" :[
             "event5-1.jpg",
             "event5-2.jpg",
             "event5-3.jpg",
             "event5-4.jpg",
             "event5-5.jpg",
-            "event5-6.jpg"
+            "event5-6.jpg",
+            "event8-1.jpeg",
+            "event8-2.jpeg",
           ]
         },
-        990: {
-          "id": 990,
-          "title" : this.$t('posts.post_990.title'),
-          "description" : this.$t('posts.post_990.description'),
-          "date" : this.$t('posts.post_990.date'),
+        989: {
+          "id": 989,
+          "title" : this.$t('posts.post_989.title'),
+          "description" : this.$t('posts.post_989.description'),
+          "date" : this.$t('posts.post_989.date'),
           "picture" :[
             "event3-1.jpg",
             "event3-2.jpg",
@@ -234,19 +238,7 @@ export default {
             "event3-13.jpg",
             "event3-14.jpg"
           ]
-        },
-        989: {
-          "id": 989,
-          "title" : this.$t('posts.post_989.title'),
-          "description" : this.$t('posts.post_989.description'),
-          "date" : this.$t('posts.post_989.date'),
-          "content": this.$t('posts.post_989.content'),
-          "pdf": "wemag-program-final.pdf",
-          "picture" :[
-            "event8-1.jpeg",
-            "event8-2.jpeg",
-          ]
-        },
+        }
 },
     }
   },
