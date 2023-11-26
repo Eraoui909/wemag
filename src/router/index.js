@@ -45,6 +45,22 @@ const routes = [
     name: 'Press_Media',
     component: () => import(/* webpackChunkName: "about" */ '../views/Press_media')
   },
+  {
+    path: '/projects-delivrables',
+    name: 'projectsDelivrables',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ProjectsDelivrables')
+  },
+  {
+    path: '/scientific-valorization',
+    name: 'ScientificValorization',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ScientificValorization')
+  },
+  {
+    path: '/multiplier-events',
+    name: 'MultiplierEvents',
+    component: () => import(/* webpackChunkName: "about" */ '../views/MultiplierEvents')
+  },
+
 ]
 
 const router = new VueRouter({

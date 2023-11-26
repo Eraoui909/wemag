@@ -40,13 +40,16 @@
             <li class="nav-item">
               
               <div class="main-nav dropdown"  >
-                <router-link class="nav-link" to="/project-results">{{ $t('project_results') }}</router-link>
+                <router-link class="nav-link" to="#">{{ $t('project_results') }}</router-link>
                 <div class="dropdown-menu">
                   <span>
-                    <router-link class="nav-link" to="/project-results">{{ $t('deliverables') }}</router-link>
+                    <router-link class="nav-link" to="/projects-delivrables">{{ $t('deliverables') }}</router-link>
                   </span>
                   <span >
-                    <router-link class="nav-link" to="/project-results">{{ $t('project_results') }}</router-link>
+                    <router-link class="nav-link" to="/scientific-valorization">{{ $t('valorization') }}</router-link>
+                  </span>
+                  <span >
+                    <router-link class="nav-link" to="/multiplier-events">{{ $t('multiplier_events') }}</router-link>
                   </span>
                   </div>
               </div>
