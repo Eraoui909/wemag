@@ -238,6 +238,35 @@ export default {
             "event3-13.jpg",
             "event3-14.jpg"
           ]
+        },
+        988: {
+          "id": 988,
+          "title" : this.$t('posts.post_988.title'),
+          "description" : this.$t('posts.post_988.description'),
+          "date" : this.$t('posts.post_988.date'),
+          "content" : this.$t('posts.post_988.content'),
+          "picture" :[
+            "event9_1.jpeg",
+            "event9_2.jpeg",
+            "event9_3.jpeg",
+            "event9_4.jpeg",
+            "event9_5.jpeg",
+            "event9_6.jpeg",
+            "event9_7.jpeg",
+            "event9_8.jpeg",
+            "event9_9.jpeg",
+            "event9_10.jpeg",
+            "event9_11.jpeg",
+            "event9_12.jpeg",
+            "event9_13.jpeg",
+            "event9_14.jpeg",
+            "event9_15.jpeg",
+            "event9_16.jpeg",
+            "event9_17.jpeg",
+            "event9_18.jpeg",
+            "event9_19.jpeg",
+            "event9_20.jpeg"
+          ]
         }
 },
     }
