@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
+    "deploy": "node gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -26,6 +26,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.20.0",
     "sass": "^1.26.5",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "execa": "latest"
   }
 }
