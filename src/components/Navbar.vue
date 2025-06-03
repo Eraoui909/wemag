@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ha-mini-nav" >
-      <small><a href="#">{{ $t('contact_us') }}</a></small>
+      <small><a href="mailto:asmae.diani@usmba.ac.ma,Asmaediani@hotmail.com">{{ $t('contact_us') }}</a></small>
       <small>
         <select class=" ha-custom-select" v-model="lang" @change="handleChange($event)" >
           <option value="en">{{ $t('en') }}</option>
